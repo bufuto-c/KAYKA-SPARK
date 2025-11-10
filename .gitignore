@@ -1,0 +1,56 @@
+# ===========================================
+# 🐍 GITIGNORE GENERAL PARA MULTIPROYECTOS PYTHON
+# ===========================================
+
+# --- Entornos virtuales ---
+**/venv/
+**/.venv/
+**/env/
+**/.env/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.pdb
+
+# --- Archivos temporales ---
+**/.DS_Store
+**/.idea/
+**/.vscode/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ipynb_checkpoints/
+
+# --- Archivos de configuración locales ---
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+**/*.env
+
+# --- Archivos de logs ---
+**/logs/
+**/*.log
+
+# --- Compilaciones ---
+build/
+dist/
+**/*.egg-info/
+**/*.egg
+
+# --- Archivos de cache ---
+.cache/
+__pycache__/
+tmp/
+temp/
+
+# --- Archivos del sistema ---
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Archivos de dependencias ---
+# (solo dejamos requirements.txt)
+Pipfile
+Pipfile.lock
+poetry.lock
